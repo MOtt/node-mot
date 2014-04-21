@@ -17,7 +17,6 @@ application.controller 'ScrumboardTasksController', ['$scope', '$rootScope', 'Sc
     $scope.tasksInProgress = ScrumboardTask.queryInProgress()
     $scope.tasksDone = ScrumboardTask.queryDone()
 
-
   $scope.destroy = (task) ->
     console.log task
 

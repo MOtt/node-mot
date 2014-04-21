@@ -1,30 +1,38 @@
-<<<<<<< HEAD
-# web-2-scrum-app
-======================
-NodeJS Applikation mit einer Vielzahl von bereits konfigurierten Elementen. Unter anderem
-wird **MongoDB** als Datenbank, **CoffeeScript** als JavaScript Precompiler, **Less** und
-**Stylus** direkt unterstützt.
-Die JavaScript Bibliothek **UnderscoreJS** steht sowohl server- als auch clientseitig zur Verfügung.
+# ScrumBoard
+=============
+
+Diese Applikation wurde gemäss der Aufgabenstellung im Web-Programmieren 2 - Seminar (ZHAW@2014) erstellt
+
+Folgende Techniken wurden gemäss Anforderungen der Aufgabenstellung verwendet: 
+- Web / API Server mit NodeJS
+- REST API
+- Frontend Anwendung mit Backbone / jQuery
+- Optionaler Persistenz-Layer
+
+
+Hier die wichtigsten Komponenten welche verwendet wurden: 
+- NodeJS als serverseitige Plattform für den Aufbau der Applikation
+- CoffeeScript als JavaScript Precompiler
+- LESS-Unterstützung für CSS
+- UnderscoreJS-Integration für diverse JavaScript Hilfsfunktionen
+- Jade - HTML Template Engine für NodeJS
+- MongoDB als Persistenz-Layer
 
 
 ## Installation
-----------------------
-1.  Packet mit *git clone <Pfad zum Git Repository>* klonen
-2.  In entsprechendes Verzeichnis wechseln
-3.  *npm install*: Installation der benötigten Node Module
-4.  *bower install*: Installation der benötigten clientseitigen Dependencies
+------------------
+1.  klonen des Pakets mit "**git clone '*Pfad zum GIT Repo*'**"
+2.  In das entsprechend Verzeichnis wechseln (*cd ...*)
+3.  Installation der benötigten Module mit **npm install**
+4.  Installation der clientseitigen Dependencies mit **bower install**
 
 
-## Server
-----------------------
+## Server-Varianten
+------------------
 ### Development
-**node server** im entsprechenden Verzeichnis ausführen.
+1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
+2.  Server starten mit: **node server**
 
 ### Production
-**forever start server** im entsprechenden Verzeichnis ausführen.
-=======
-node-mot
-========
-
-WebEng2-Projekt 'Scrumboard'
->>>>>>> fe0295374cbf769137c435f86a62f0c33c8cbb36
+1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
+2.  Server starten mit: **forever start server**

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # web-2-scrum-app
 ======================
 NodeJS Applikation mit einer Vielzahl von bereits konfigurierten Elementen. Unter anderem
@@ -21,3 +22,9 @@ Die JavaScript Bibliothek **UnderscoreJS** steht sowohl server- als auch clients
 
 ### Production
 **forever start server** im entsprechenden Verzeichnis ausführen.
+=======
+node-mot
+========
+
+WebEng2-Projekt 'Scrumboard'
+>>>>>>> fe0295374cbf769137c435f86a62f0c33c8cbb36

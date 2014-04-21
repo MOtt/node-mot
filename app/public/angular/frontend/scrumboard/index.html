@@ -1,0 +1,21 @@
+<div ng-init="init()">
+    <div class="panel panel-default"  ng-include="'angular/frontend/scrumboard/_form.html'"></div>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <h3>ToDo</h3>
+            <div class="panel panel-default" ng-repeat="task in tasksToDo" ng-include="'angular/frontend/scrumboard/_task.html'"></div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>In Progress</h3>
+            <div class="panel panel-default" ng-repeat="task in tasksInProgress" ng-include="'angular/frontend/scrumboard/_task.html'"></div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>Done</h3>
+            <div class="panel panel-default" ng-repeat="task in tasksDone" ng-include="'angular/frontend/scrumboard/_task.html'"></div>
+        </div>
+    </div>
+</div>

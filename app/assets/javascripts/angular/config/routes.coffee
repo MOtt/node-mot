@@ -1,9 +1,7 @@
 ###
-  @desc     Konfiguration der Routen für die Applikation
-
-  @author   Patrick Lehmann <lehmann@bl-informatik.ch>
-  @date     2014-03-14
+  Routen definieren
 ###
+
 application.config ($routeProvider) ->
 
 
@@ -11,5 +9,10 @@ application.config ($routeProvider) ->
     templateUrl: 'angular/frontend/index.html'
     controller: 'IndexController'
   )
-  
+
+  $routeProvider.when('/tasks',
+    templateUrl: 'angular/frontend/scrumboard/index.html'
+    controller: 'ScrumboardTasksController'
+  )
+
   $routeProvider.otherwise redirectTo: '/'

@@ -1,7 +1,10 @@
+#
+  Formular auf Eingabefehler (Pflichtfelder nicht ausgefüllt) prüfen
+
+  Falls Pflichtfeld fehlt -> Feld umrahmen und Hinweis
+#
+
 $ ->
-  #
-  # Globale Formularvalidierung
-  # ----------------------------------------------------------------
   $('form').validate(
     errorElement:     'span'
     errorClass:       'help-block'
@@ -24,7 +27,7 @@ $ ->
         error.insertAfter element
   )
 
-  # Formular nach Select2 Change erneut validieren
+  # Falls Formular geändert hat, Inhalt nochmals validieren
   form = $('form')
   $('select', form).change ->
     form.validate(element($(this)))

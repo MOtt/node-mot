@@ -1,6 +1,5 @@
-
 ###
-Module dependencies.
+  Modul-Abhängigkeiten
 ###
 express           = require 'express'
 load              = require 'express-load'
@@ -13,25 +12,25 @@ less              = require 'less'
 flash             = require 'connect-flash'
 
 ###
-# Express app
+  Express app
 ###
 app = express()
 
 
 ###
-# Server
+  Server
 ###
 server = http.createServer app
 
 ###
-# Application configuration
+  Konfiguration der Applikation
 ###
 
 app.configure ->
   app.set 'root', __dirname
   app.set 'mongoDbServer', 'ple.bli.ch'
-  app.set 'mongoDbDatabase', 'scrum_board_development'
-  app.set 'port', 8080
+  app.set 'mongoDbDatabase', 'scrum_board_mot'
+  app.set 'port', 4444
 
 
   # Template engine
@@ -50,9 +49,8 @@ app.configure ->
 
   app.use app.router
 
-  # Flash Messages
+  # Flash-Nachrichten
   app.use flash()
-
 
   # Assets
   environment = new Mincer.Environment()
@@ -67,11 +65,10 @@ app.configure ->
   app.use express.static "#{__dirname}/public"
   app.enable 'trust proxy'
 
-
-
 ###
-# Autoload environment configuration and modules into application instance
+  Konfiguration der Umgebung und die Module automatisch in die Applikation laden
 ###
+
 process.chdir 'app'
 
 load('middelware')
@@ -82,17 +79,15 @@ load('middelware')
 
 
 ###
-# MongoDB Connection
+# Verbindung zu MongoDB
 ###
+
 mongoose.connect("mongodb://#{app.get 'mongoDbServer'}/#{app.get 'mongoDbDatabase'}" )
 
-
-
-
-
 ###
-# Listen on to port
+  Auf Port warten
 ###
+
 reload(server, app)
 
 server.listen app.settings.port, ->

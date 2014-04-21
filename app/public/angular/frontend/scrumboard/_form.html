@@ -1,0 +1,39 @@
+
+<form role="form" ng-submit="saveTask()">
+    <h1 class="well">Task erstellen/bearbeiten</h1>
+    <div class="well">
+        <div class="form-group">
+            <label>Titel</label>
+            <input type="text" ng-model="currentTask.label" class="form-control" placeholder="Titel eingeben" autofocus="true" required>
+        </div>
+        <div class="form-group">
+            <label>Text</label>
+            <textarea class="form-control" ng-model="currentTask.text" rows="3" placeholder="Beschreibung eingeben" required></textarea>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1">
+                <div class="form-group">
+                    <label>Fortschritt</label>
+                    <select class="form-control" ng-model="currentTask.effort" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label>Ersteller</label>
+                    <input type="text" ng-model="currentTask.employee" class="form-control" placeholder="Name / Vorname" required>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-default">Speichern</button>
+
+    </div>
+</form>

@@ -1,0 +1,40 @@
+            <div class="panel-heading">
+                <div class="row">
+
+                    <div class="col-xs-8">
+                        <ul class="nav nav-pills">
+                            <li >
+                                <a ng-click="edit(task)">
+                                    <h3 class="panel-title">{{task.label}}</h3>
+                                </a>
+                           </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-xs-3">
+
+                        <a class="btn btn-default btn-sm pull-right" ng-click="nextQueue(task)">
+                            <i class="fa fa-share"></i>
+                        </a>
+
+                        <a class="btn btn-default btn-sm pull-right" ng-click="previousQueue(task)">
+                            <i class="fa fa-reply"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="col-xs-1">
+
+                        <a class="btn btn-danger btn-sm pull-right" ng-click="destroy(task)">
+                            <i class="fa fa-trash-o"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="panel-body">
+                {{task.text}}
+            </div>

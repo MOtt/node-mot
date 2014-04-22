@@ -47,7 +47,7 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 Alle Felder entsprechend abfüllen und auf Button *Als neuer Task speichern* klicken
 
 ### Task ändern
-gewünschter Task im Betreff anklicken und in der Bearbeitungsmaske ändern. Änderung wird bei Eingabe gespeichert
+gewünschter Task im Betreff anklicken und in der Bearbeitungsmaske ändern. Änderung wird bei Eingabe gespeichert. Entweder einen weiteren Task anklicken oder auf Neuer Task klicken um die Maske zu leeren
 
 ### Task verschieben
 Beim entsprechenden Task den Pfeil nach links oder nach rechts anklicken und die Meldung bestätigen

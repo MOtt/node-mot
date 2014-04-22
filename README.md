@@ -9,7 +9,6 @@ Folgende Techniken wurden gemäss Anforderungen der Aufgabenstellung verwendet:
 - Frontend Anwendung mit AngularJS / UnderscoreJS / jQuery
 - Optionaler Persistenz-Layer
 
-
 Hier die wichtigsten Komponenten welche verwendet wurden: 
 - NodeJS als serverseitige Plattform für den Aufbau der Applikation
 - AngularJS als MVC-Framework
@@ -30,15 +29,17 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 4.  Installation der clientseitigen Dependencies mit **bower install**
 
 
-## Server-Varianten
+## Server starten
 ------------------
-### Entwicklung
+### Entwicklung (temporär)
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 2.  Server starten mit: **node server**
 
 ### Produktion
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 2.  Server starten mit: **forever start server.js**
+(3.) Server stoppen mit **forever stop server.js**
+
 
 ## Anleitung
 ------------------
@@ -57,4 +58,4 @@ Beim entsprechenden Task den Papierkorb anklicken und die Meldung bestätigen
 
 ## Aktueller Stand
 ------------------
-- Testing wurde aus zeitgründen (noch) nicht realisiert
+- Unit-Testing wurde aus zeitgründen (noch) nicht realisiert

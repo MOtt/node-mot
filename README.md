@@ -59,3 +59,4 @@ Beim entsprechenden Task den Papierkorb anklicken und die Meldung bestätigen
 ## Aktueller Stand
 ------------------
 - Unit-Testing wurde aus zeitgründen (noch) nicht realisiert
+- Bekanntes Problem: unter IE reagiert die Seite teilweise nicht

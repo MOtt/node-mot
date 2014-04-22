@@ -29,13 +29,13 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 
 ## Server-Varianten
 ------------------
-### Development
+### Entwicklung
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 2.  Server starten mit: **node server**
 
-### Production
+### Produktion
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
-2.  Server starten mit: **forever start server**
+2.  Server starten mit: **forever start server.js**
 
 ## Aktueller Stand
 ------------------

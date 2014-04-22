@@ -38,7 +38,7 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 ### Produktion
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 2.  Server starten mit: **forever start server.js**
-(3.) Server stoppen mit **forever stop server.js**
+3.  Server stoppen mit **forever stop server.js**
 
 
 ## Anleitung

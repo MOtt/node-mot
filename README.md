@@ -6,17 +6,20 @@ Diese Applikation wurde gemäss der Aufgabenstellung im Web-Programmieren 2 - Se
 Folgende Techniken wurden gemäss Anforderungen der Aufgabenstellung verwendet: 
 - Web / API Server mit NodeJS
 - REST API
-- Frontend Anwendung mit Backbone / jQuery
+- Frontend Anwendung mit AngularJS / UnderscoreJS / jQuery
 - Optionaler Persistenz-Layer
 
 
 Hier die wichtigsten Komponenten welche verwendet wurden: 
 - NodeJS als serverseitige Plattform für den Aufbau der Applikation
+- AngularJS als MVC-Framework
+- jQuery als JavaScript-Bibliothek
 - CoffeeScript als JavaScript Precompiler
 - LESS-Unterstützung für CSS
 - UnderscoreJS-Integration für diverse JavaScript Hilfsfunktionen
 - Jade - HTML Template Engine für NodeJS
-- MongoDB als Persistenz-Layer
+- Mongoose als Persistenz-Layer
+- MongoDB als Datenbank
 
 
 ## Installation

@@ -39,5 +39,5 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 
 ## Aktueller Stand
 ------------------
-- Bestehende Tasks werden nochmals gespeichert, wenn Sie verändert werden
+- Bestehende Tasks werden nochmals gespeichert, wenn Sie verändert werden  (nur bei Klick auf Speichern - bei wechsel auf anderen Task nicht)
 - Testing wurde aus zeitgründen (noch) nicht realisiert

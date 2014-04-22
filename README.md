@@ -40,7 +40,21 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 2.  Server starten mit: **forever start server.js**
 
+## Anleitung
+------------------
+### Task erfassen
+Alle Felder entsprechend abfüllen und auf Button *Als neuer Task speichern* klicken
+
+### Task ändern
+gewünschter Task im Betreff anklicken und in der Bearbeitungsmaske ändern. Änderung wird bei Eingabe gespeichert
+
+### Task verschieben
+Beim entsprechenden Task den Pfeil nach links oder nach rechts anklicken und die Meldung bestätigen
+
+### Task löschen
+Beim entsprechenden Task den Papierkorb anklicken und die Meldung bestätigen
+
+
 ## Aktueller Stand
 ------------------
-- Bestehende Tasks werden nochmals gespeichert, wenn Sie verändert werden  (nur bei Klick auf Speichern - bei wechsel auf anderen Task nicht)
 - Testing wurde aus zeitgründen (noch) nicht realisiert

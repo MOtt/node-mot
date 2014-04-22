@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a68a4f3c-524e-4781-afd0-a2e5272d0d79" name="Default" comment="Initial">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html" afterPath="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/angular/frontend/index.html" afterPath="$PROJECT_DIR$/app/public/angular/frontend/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/frontend/index.jade" afterPath="$PROJECT_DIR$/app/views/frontend/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
@@ -29,11 +30,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="scrumboardTasksController.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/scrumboardTasksController.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.72" vertical-offset="0" max-vertical-offset="2023">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.461538" vertical-offset="75" max-vertical-offset="765">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/angular/frontend/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26771653" vertical-offset="0" max-vertical-offset="1156">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.6671687" vertical-offset="747" max-vertical-offset="1411">
+              <caret line="70" column="64" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -65,7 +86,6 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_task.html" />
-        <option value="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html" />
         <option value="$PROJECT_DIR$/app/public/angular/frontend/index.jade" />
         <option value="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_task.jade" />
         <option value="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/index.html" />
@@ -91,6 +111,7 @@
         <option value="$PROJECT_DIR$/app/routes/api/frontend.coffee" />
         <option value="$PROJECT_DIR$/app/views/errors/500.jade" />
         <option value="$PROJECT_DIR$/app/app.coffee" />
+        <option value="$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/scrumboardTasksController.coffee" />
         <option value="$PROJECT_DIR$/app/public/angular/frontend/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -98,8 +119,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
-    <option name="height" value="1160" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -935,14 +958,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1160" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33460075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3358051" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1241,13 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4183071" vertical-offset="0" max-vertical-offset="1016">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/scrumboard/task.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.01671583" vertical-offset="0" max-vertical-offset="1017">
@@ -1318,25 +1334,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/angular/frontend/scrumboard/_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.461538" vertical-offset="75" max-vertical-offset="765">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/scrumboardTasksController.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12781955" vertical-offset="17" max-vertical-offset="2023">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state vertical-scroll-proportion="-19.72" vertical-offset="0" max-vertical-offset="2023">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7216981" vertical-offset="0" max-vertical-offset="867">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.51428574" vertical-offset="423" max-vertical-offset="1105">
+          <caret line="45" column="84" selection-start-line="45" selection-start-column="84" selection-end-line="45" selection-end-column="84" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/public/angular/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26771653" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6671687" vertical-offset="747" max-vertical-offset="1411">
+          <caret line="70" column="64" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="64" />
           <folding />
         </state>
       </provider>

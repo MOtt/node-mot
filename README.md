@@ -21,7 +21,7 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 
 ## Installation
 ------------------
-1.  klonen des Pakets mit "**git clone '*Pfad zum GIT Repo*'**"
+1.  Klonen des Pakets mit "**git clone '*Pfad zum GIT Repo*'**"
 2.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 3.  Installation der benötigten Module mit **npm install**
 4.  Installation der clientseitigen Dependencies mit **bower install**
@@ -36,3 +36,8 @@ Hier die wichtigsten Komponenten welche verwendet wurden:
 ### Production
 1.  In das entsprechend Verzeichnis wechseln (*cd ...*)
 2.  Server starten mit: **forever start server**
+
+## Aktueller Stand
+------------------
+- Bestehende Tasks werden nochmals gespeichert, wenn Sie verändert werden
+- Testing wurde aus zeitgründen (noch) nicht realisiert
